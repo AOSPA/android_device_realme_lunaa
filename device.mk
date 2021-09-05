@@ -331,7 +331,8 @@ PRODUCT_PACKAGES += \
     sensors.oplus
 
 PRODUCT_PACKAGES += \
-    android.hardware.sensors@2.1-service.lunaa-multihal
+    android.hardware.sensors@2.1-service.lunaa-multihal \
+    als_correction_service.lunaa
 
 PRODUCT_VENDOR_PROPERTIES += \
     persist.vendor.sensors.allow_non_default_discovery=true \
