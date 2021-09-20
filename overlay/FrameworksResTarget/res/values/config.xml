@@ -65,5 +65,7 @@
    <string name="config_wlan_data_service_package" translatable="false">vendor.qti.iwlan</string>
    <string name="config_wlan_network_service_package" translatable="false">vendor.qti.iwlan</string>
    <string name="config_qualified_networks_service_package" translatable="false">vendor.qti.iwlan</string>
-
+    
+    <!-- Doze: should the TYPE_PICK_UP_GESTURE sensor be used as a pulse signal. -->
+    <bool name="config_dozePulsePickup">true</bool>
 </resources>
